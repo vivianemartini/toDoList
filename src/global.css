@@ -21,6 +21,11 @@
   -blue-dar: #1E6F9F;
 }
 
-h1 {
-  color: black;
+body, input, textarea, button {
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: var(--gray-600);
+  -webkit-font-smoothing: antialiased;
 }
