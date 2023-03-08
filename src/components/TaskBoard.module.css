@@ -1,0 +1,66 @@
+.wrapper {
+    max-width: 70rem;
+    margin: 3rem 12rem;
+
+}
+
+.titles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titlesBox{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    gap: 8px;
+    display: flex;
+}
+
+.titles span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 8px;
+    gap: 10px;
+
+    width: 25px;
+    height: 19px;
+
+    background: var(--gray-400);
+    border-radius: 999px;
+
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 15px;
+    color:  var(--gray-200);
+}
+
+.made {
+    color: var(--blue);
+    gap: 8px;
+}
+
+.done {
+    color: var(--purple)
+}
+
+.clipboard {   
+    margin: 6rem auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.clipboard img {
+    text-align: center;
+}
+
+.text {
+    font-size: 1rem;
+    line-height: 22px;
+    text-align: center;
+    color: var(--gray-300);
+}

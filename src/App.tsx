@@ -2,6 +2,7 @@ import { Header } from './components/Header';
 import { NewTasks } from './components/NewTasks';
 
 import styles from './App.module.css'
+import { TaskBoard } from './components/TaskBoard';
 
 export function App() {
   return (
@@ -10,6 +11,7 @@ export function App() {
 
       <main className={styles.wrapper}>
         <NewTasks />
+        <TaskBoard />
       </main>
 
     </div>
