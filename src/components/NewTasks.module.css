@@ -24,10 +24,17 @@ input {
     color: var(--gray-100)
 }
 
-:focus {
+input:focus {
     outline: transparent;
     box-shadow: 0 0 0 1px var(--purple-middle);
-  }
+}
+
+::placeholder{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 22px;
+    color: var(--gray-300);
+}
 
 button {
     display: flex;
@@ -45,7 +52,7 @@ button {
 
     font-weight: 700;
     font-size: 14px;
-    line-height: 140%;
+    line-height: 22px;
     border: none;
 
     cursor: pointer;
