@@ -46,8 +46,17 @@
     color: var(--purple)
 }
 
+.line {
+    padding: 64px 24px;
+    gap: 16px;
+    width: 736px;
+    border-top: 1px solid var(--gray-400);
+    border-radius: 8px;
+    margin-top: 1.5rem;
+}
+
 .clipboard {   
-    margin: 6rem auto;
+    margin: -3rem auto;
     align-items: center;
     display: flex;
     flex-direction: column;

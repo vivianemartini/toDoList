@@ -16,6 +16,8 @@ export function TaskBoard(){
                 </div>
             </div>
 
+            <div className={styles.line}></div>
+
             <div className={styles.clipboard}>
                 <img src={clipboard} />
                <div className={styles.text}>
