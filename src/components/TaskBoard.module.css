@@ -1,7 +1,6 @@
 .wrapper {
     max-width: 70rem;
     margin: 3rem 12rem;
-
 }
 
 .titles {
@@ -43,7 +42,7 @@
 }
 
 .done {
-    color: var(--purple)
+    color: var(--purple);
 }
 
 .line {

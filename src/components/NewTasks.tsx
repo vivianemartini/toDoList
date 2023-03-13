@@ -7,7 +7,7 @@ export function NewTasks(){
             <div >
                 <input className={styles.input} type="text" placeholder='Adicione uma nova tarefa'/>
             </div>
-            <button className={styles.button}>
+            <button className={styles.buttonPlus}>
                 Criar
                 <PlusCircle size={16} />
             </button>
