@@ -12,9 +12,26 @@
     
 }
 
-.taskText {
+.round {
+    position: relative;
     width: 632px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.taskText {
+    width: 600px;
     height: 40px;
+    position: relative;
+
+    bottom: 61px;
+    left: 51px;
+}
+
+.taskCheckbox {
+    width: 24px;
+    height: 24px;
 }
 
 .taskText p {
@@ -36,13 +53,6 @@
 
 .trash:hover {
     color: var(--danger);
-}
-
-
-.round {
-    position: relative;
-    width: 24px;
-    height: 24px;
 }
 
 .round label {
@@ -79,6 +89,11 @@
 .round input[type="checkbox"]:checked + label {
     background-color: var(--purple-dark);
     border-color: var(--purple-dark);
+}
+
+.round input[type="checkbox"]:checked  + label + .taskText p{
+    text-decoration: line-through; 
+    color: var(--gray-300);
 }
   
 .round input[type="checkbox"]:checked + label:after {
