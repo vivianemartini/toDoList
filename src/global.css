@@ -44,3 +44,15 @@ body::before{
   left: 0;
   z-index: -1;
 }
+
+@media(max-width: 418px ) {
+  body::before {
+    width: 70rem;
+
+  }
+}
+@media(max-width: 780px) {
+  body::before {
+    width: 70rem;
+  }
+}

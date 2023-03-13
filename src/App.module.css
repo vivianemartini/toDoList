@@ -1,5 +1,23 @@
 .wrapper {
-    max-width: 70rem;
+    width: 70rem;
     margin: -2rem auto;
     display: grid;
+}
+
+@media(max-width: 418px ) {
+    .wrapper {
+        margin-left: -6rem;
+    }
+}
+
+@media(max-width: 780px) {
+    .wrapper {
+        margin-left: -6rem;
+    }
+}
+
+@media(max-width: 1024px) {
+    .wrapper {
+        margin-left: -6rem;
+    }
 }

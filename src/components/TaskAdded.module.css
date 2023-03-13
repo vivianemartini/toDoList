@@ -1,6 +1,6 @@
 .wrapper {
-    width: 736px;
-    height: 72px;
+    width: 46rem;
+    height: 4.5rem;
     background: var(--gray-500);
     border: 1px solid var(--gray-300);
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
@@ -14,30 +14,29 @@
 
 .round {
     position: relative;
-    width: 632px;
+    width: 39.5rem;
     display: flex;
     align-items: center;
     gap: 1rem;
 }
 
 .taskText {
-    width: 600px;
-    height: 40px;
+    width: 37.5rem;
+    height: 2.5rem;
     position: relative;
 
-    bottom: 61px;
-    left: 51px;
+    bottom: 3.8rem;
+    left: 3.18rem;
 }
 
 .taskCheckbox {
-    width: 24px;
-    height: 24px;
+    width: 1.5rem;
+    height:1.5rem;
 }
 
 .taskText p {
     font-weight: 400;
-    font-size: 14px;
-    line-height: 140%;
+    font-size: 1rem;
     line-height: 20px;
     color: var(--gray-100);
 }
@@ -64,7 +63,7 @@
     left: 0;
     position: absolute;
     top: 0;
-    width: 18px;
+    width: 1.1rem;
 }
   
 .round label:after {

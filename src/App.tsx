@@ -21,7 +21,7 @@ export function App() {
       <main className={styles.wrapper}>
         <NewTasks />
         <TaskBoard />
-   {/*      <TaskAdded /> */}
+{/*         <TaskAdded /> */}
       </main>
 
     </div>
