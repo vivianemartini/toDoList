@@ -1,6 +1,8 @@
 import styles from './NewTasks.module.css'
 import { PlusCircle } from '@phosphor-icons/react'
 
+//task: '';
+
 export function NewTasks(){
     return (
         <div className={styles.box}>

@@ -2,7 +2,7 @@ import styles from './TaskAdded.module.css'
 import { Trash } from '@phosphor-icons/react'
 
 const task = [{
-    title: 'terminar desafio',
+    title: 'terminar desafio 01 do ignite',
     isComplete: true,
 }]
 
@@ -21,7 +21,6 @@ export function TaskAdded(){
                     </div>
                 </div>
             </div>
-
 
             <button className={styles.trash}>
                 <Trash size={20} />

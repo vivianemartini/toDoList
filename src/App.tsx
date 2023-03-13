@@ -5,6 +5,14 @@ import styles from './App.module.css'
 import { TaskBoard } from './components/TaskBoard';
 import { TaskAdded } from './components/TaskAdded';
 
+const tasks = [
+  {
+    id: 1,
+    taskToDo: '',
+  },
+
+]
+
 export function App() {
   return (
     <div>
@@ -13,7 +21,7 @@ export function App() {
       <main className={styles.wrapper}>
         <NewTasks />
         <TaskBoard />
-        <TaskAdded />
+   {/*      <TaskAdded /> */}
       </main>
 
     </div>
