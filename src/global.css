@@ -16,9 +16,12 @@
   --danger: #E25858;
 
   --purple: #8284FA;
+  --purple-middle: #9747FF;
   --purple-dark: #5E60CE;
   --blue: #4EA8DE;
-  -blue-dar: #1E6F9F;
+  --blue-dark: #1E6F9F;
+
+  --white: #ffffff;
 }
 
 body, input, textarea, button {
