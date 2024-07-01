@@ -1,22 +1,21 @@
-## To-do list
+## To-do list Page
 
-Projeto desenvolvido em React.
+Project developed in React.
 
 ##
-Aplicação de controle de tarefas no estilo **to-do list**, que contém as seguintes funcionalidades:
+Task management application in **to-do list** style, which contains the following features:
+- Add a new task
+- Mark and unmark a task as completed
+- Remove a task from the listing
+Show the progress of task completion
 
-- Adicionar uma nova tarefa
-- Marcar e desmarcar uma tarefa como concluída
-- Remover uma tarefa da listagem
-- Mostrar o progresso de conclusão das tarefas
+Use concepts such as:
 
-Utilizar conceitos como:
-
-- Estados
-- Imutabilidade do estado
-- Listas e chaves no ReactJS
-- Propriedades
-- Componentização
+- States
+- State immutability
+- Lists and keys in ReactJS
+= Properties
+- Componentization
 
 ## Preview
 
